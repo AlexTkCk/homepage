@@ -92,6 +92,7 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item {
@@ -122,9 +123,8 @@ body {
 }
 
 .contact-info__avatar {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border-radius: 5%;
+    width: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
